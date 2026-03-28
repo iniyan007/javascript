@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+    text-align: center;
+    color: white;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.search-box input {
+    margin-top: 10px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    color: black;
+}
+
+.search-box button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.weather-box {
+    margin-top: 20px;
+    font-size: 18px;
+}
