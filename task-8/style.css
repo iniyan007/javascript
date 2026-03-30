@@ -1,0 +1,33 @@
+body{
+    font-family: 'poppins', sans-serif;
+    background: #f0f2f5;
+    height: 100vh;
+}
+nav{
+    position: absolute;
+    top:20px;
+    left: 40%;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: #eee;
+    margin: 0 5px;
+}
+nav a:hover{
+    background: #ddd;
+}
+.heading{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 24px;
+}
+#app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
